@@ -27,7 +27,7 @@
 | `i_rst_n` | Input | 1 | 异步复位，低电平有效。 |
 | `i_valid` | Input | 1 | 输入有效握手信号。 |
 | `o_ready` | Output | 1 | 模块就绪信号。 |
-| `i_data_bus` | Input | 256 | 6 路并行输入 (16 $\times$ 16-bit Q4.12)。 |
+| `i_data_bus` | Input | 256 | 16 路并行输入 (16 $\times$ 16-bit Q4.12)。 |
 | `o_valid` | Output | 1 | 输出有效握手信号。 |
 | `i_ready` | Input | 1 | 下游就绪信号（支持反压）。 |
 | `o_data_bus` | Output | 256 | 16 路并行输出 (16 $\times$ 16-bit UQ1.15)。 |
